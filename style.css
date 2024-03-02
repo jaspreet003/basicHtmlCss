@@ -1,0 +1,78 @@
+* {
+    border-style: outset;
+    border-width: 2px;
+    border-color: aqua;
+}
+
+.outerBox {
+    margin: 0 100px;
+}
+
+
+header,
+#div1 {
+    background-color: #1F2937;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+header p {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+
+
+header div a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#div1 {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    border-top: whitesmoke;
+    justify-content: space-between;
+    color: white;
+}
+
+.firstElement {
+    width: 50%;
+    margin: 10px;
+}
+
+#div1 div h3 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.lastElement {
+    width: 40%;
+    background-color: gray;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+
+#div1 :first-child p {
+    text-overflow: clip;
+}
+
+.button {
+    background-color: #3882f6;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+}
