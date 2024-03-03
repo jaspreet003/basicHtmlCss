@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prcatise Basics</title>
-    <link rel="stylesheet" href="reset.css">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <header>
-    <div class="outerBox">
+    <div class="marginDiv headerDiv">
         <p>Header Logo</p>
         <div>
-            <a href="#div1">header link here</a>
+            <a href="#div1" class="headerLink">header link here</a>
             <a href="">header link two</a>
             <a href="">header link three</a>
         </div>
@@ -24,10 +24,10 @@
 <body>
     <!---div 1-->
     <div class="div1">
-        <div id="outerBox">
+        <div class="marginDiv div1Style">
             <div class="firstElement">
-                <h3>This website is awesome</h3>
-                <p>this is the best thing the world jasprd xbdci jdh ieov scoorv cjroj t crkcotovtp</p>
+                <p class="heading">This website is awesome</p>
+                <p class="div1Text">this is the best thing the world jasprd xbdci jdh ieov scoorv cjroj t crkcotovtp</p>
                 <button class="button">Sign up</button>
             </div>
             <div class="lastElement">this is a placeholder for an image</div>
@@ -35,39 +35,58 @@
     </div>
 
     <!---div 2-->
-    <div class="outerBox">
-        <div id="div2">
-            <h3>Some random information</h3>
-            <section>
-                <img src="" alt="">
-                <p>this is some tetx under pic</p>
-                <img src="" alt="">
-                <p>this is some tetx under pic</p>
-                <img src="" alt="">
-                <p>this is some tetx under pic</p>
-                <img src="" alt="">
-                <p>this is some tetx under pic</p>
-            </section>
+    <div class="div2">
+        <div class="marginDiv">
+            <p class="div2Header">Some random information</p>
+            <div class="controlImageDiv2">
+                <div class="imageDiv2">
+                    <img src="" alt="">
+                    <p>this is some tetx under pic</p>
+                </div>
+                <div class="imageDiv2">
+                    <img src="" alt="">
+                    <p>this is some tetx under pic</p>
+                </div>
+                <div class="imageDiv2">
+                    <img src="" alt="">
+                    <p>this is some tetx under pic</p>
+                </div>
+                <div class="imageDiv2">
+                    <img src="" alt="">
+                    <p>this is some tetx under pic</p>
+                </div>
+
+            </div>
         </div>
     </div>
 
     <!--div 3-->
-    <div id="div3">
-        <p></p>
-        <p></p>
+    <div class="div3">
+        <div class="marginDiv">
+            <p class="div3Italic">This is an inspiring quote, ora atestimaonial form a fiustomer. amkeybe its just
+                afilleigg up sace or
+                maybe
+                people will actuaally read it . wwho knowsd? all i know is that ia liom knice.</p>
+            <p>-Thor, Son of Odin</p>
+        </div>
     </div>
 
-    <div class="outerBox">
-        <div>
-            <div>
-                <h6>Call to action! Its time</h6>
-                <p>owjoenerjnbjerjbner</p>
+    <!--div 4-->
+    <div class="div4">
+        <div class="marginDiv">
+            <div class="div4outer">
+                <div class="div4Text">
+                    <p>Call to action! Its time</p>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button class="div4Button">Sign up</button>
             </div>
-            <button>Sign up</button>
         </div>
     </div>
 </body>
 <footer>
+    <p class="footerClass">Copyright @ The Odin Project 2024</p>
+
 
 
 
